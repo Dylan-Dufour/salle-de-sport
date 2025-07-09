@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AXELIA</title>
+  <link rel="stylesheet" href="assets/salle de sport.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header,
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1em;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 2em;
+    }
+
+    .gallery {
+      display: grid;
+      gap: 1em;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .form-section input[type="radio"] {
+      margin-right: 0.5em;
+    }
+
+    .radio-group {
+      display: flex;
+      gap: 1em;
+      margin-top: 1em;
+    }
+
+    footer .social-icons a {
+      color: white;
+      margin: 0 0.5em;
+      font-size: 1.2em;
+    }
+
+    footer .info {
+      margin-top: 1em;
+    }
+
+    @media (min-width: 1024px) {
+      .gallery {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .form-section label {
+        display: block;
+        margin-top: 1em;
+      }
+
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="Logo"><img src="./assets/icones/logo salle de sport.png" height="100" width="100" logo></div>
+      <div>
+        <a href="accueil.html">Accueil</a>
+        <a href="nosclubs.html">Nos clubs</a>
+        <a href="Planning.html">Planning</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="formulaire.html">inscription</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <!-- PAGE ACCUEIL -->
+    <section>
+      <h1>Bienvenue a AXELIA</h1>
+      <img id="hero" src="./assets/img/accueil-axellia-presentation-V2.jpg" height="250" width="250">
+      
+</div>
+
+  </div>
+</div>
+
+</div>
+      <p>Notre salle de sport est équipée de machines modernes pour la musculation, le cardio . Dans un cadre spacieux,
+        convivial et contemporain, vous accéderez à différents espaces d’entraînement.
+        La qualité des infrastructures, le matériel de dernière génération et la grande superficie des salles vous
+        garantissent bien-être et confort durant vos séances.</p>
+      <h1>Nos Clubs</h1>
+      <div class="container-picture">
+        <div class="clubs">
+          <img src="./assets/img/axelia la seyne.png" height="250" width="250">
+          <h1>La seyne</h1>
+        </div>
+        <div class="clubs">
+          <img src="./assets/img/axelia valence.png" height="250" width="250">
+          <h1>valence</h1>
+
+        </div>
+        <div class="clubs">
+          <img src="./assets/img/axelia sorgues.png" height="250" width="250">
+          <h1>sorgues</h1>
+
+        </div>
+
+      </div>
+
+      <h1>Nos Programmes</h1>
+      <div class="container-picture">
+        <div class="clubs">
+          <img src="./assets/img/cardio.avif" height="250" width="250">
+          <h1>cardio</h1>
+          
+          <p>🔥 Ce que vous trouverez chez Axelia :
+✅ Accès libre 7j/7 à notre salle entièrement équipée
+✅ Espace musculation & poids libres dernière génération
+✅ Appareils cardio high-tech (vélos, rameurs, tapis, etc.)
+✅ Cours collectifs variés :
+HIIT, Body Pump, Pilates, Yoga, Zumba, Step, etc.
+✅ Coaching individuel sur-mesure
+✅ Programme nutrition & suivi personnalisé
+✅ Vestiaires modernes avec douches et casiers
+✅ Ambiance familiale, motivante et inclusive</p>
+        </div>
+          <div class="clubs">
+            <img src="./assets/img/muscu.jpg" height="250" width="250">
+            <h1>Musculation</h1>
+          </div>
+
+        
+      </div>
+
+<h2>Horaires d'ouverture</h2>
+      <table cellpadding="10">
+        <tr>
+          <th>Jour</th>
+          <th>Ouverture-Fermeture</th>
+        </tr>
+        <tr>
+          <td>Lundi - Vendredi</td>
+          <td>06:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td>Samedi</td>
+          <td>06:00</td>
+          <td>20:00</td>
+        </tr>
+        <tr>
+          <td>Dimanche</td>
+          <td>06:00</td>
+          <td>20:00</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <img src="./assets/icones/facebook logo noir.png" alt="logo facebook" height="50" width="50">
+      <img src="./assets/icones/Instagram_logo_2022.svg" alt="instagram" height="50" width="50">
+      <img src="./assets/icones/hd-twitter-modern-square-app-icon-png-701751695053980ghwgwrbd0v.png" alt="twitter" height="50"
+        width="50">
+      <img src="./assets/icones/tiktok2_5381bbf7-d33d-4c31-9cbd-6dad2ef3b2ce.webp" alt="tiktok" height="50" width="50">
+    </div>
+    <div class="info">
+      <p>70 Avenue de Rome 83500 La-Seyne-Sur-Mer</p>
+      <p>Téléphone : 04 94 63 13 02</p>
+    </div>
+  </footer>
+</body>
+
+</html>
